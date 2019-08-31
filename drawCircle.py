@@ -12,4 +12,9 @@
 
 >>> drawCircle(t,20)
 >>> drawCircle(t,200)
->>>
+
+>>> drawCircle(t,20)
+>>> drawCircle(t,200)
+
+>>> drawCircle(t,20)
+>>> drawCircle(t,200)
