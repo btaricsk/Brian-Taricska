@@ -1,0 +1,4 @@
+  
+What we covered in chapter 2:
+
+"Pi" was the common theme in chapter 2 and the chapter gives several algorithms where the number is either used or determined. Archemedes and Leibriz were the primary disussed algorithms; each has a different use case for finding Pi. The chapter then dives into a breakdown of how to systematically write lines of code to play "The Dart Game" where if/else statements are used to randomly generate a number, and use the aforementioned algorithms to determine if the randomly generated number falls within the quadrant where a circle is inscribed in a square. 
