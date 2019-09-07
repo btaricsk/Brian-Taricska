@@ -1,4 +1,12 @@
-  
-What we covered in chapter 2:
+What was covered in Chapter 1:
+A high level overview of computers and high level overview of computers and computer science was addressed in the first chapter, and specific examples on how we see computers in action were cited. Examples like the logistics behind a package delivery at UPS.
 
-"Pi" was the common theme in chapter 2 and the chapter gives several algorithms where the number is either used or determined. Archemedes and Leibriz were the primary disussed algorithms; each has a different use case for finding Pi. The chapter then dives into a breakdown of how to systematically write lines of code to play "The Dart Game" where if/else statements are used to randomly generate a number, and use the aforementioned algorithms to determine if the randomly generated number falls within the quadrant where a circle is inscribed in a square. 
+Additionally, the chapter covers a section on problem solving strategies, and these terms are commonly used in my current work practice:
+•   Strategy: A high-level idea for finding a solution.
+•   Tactics: Methods or patterns that work in many different settings.
+•   Tools: Specific tricks and techniques that are used in specific situations.
+
+After the high levels are covered, the chapter dissects these problems and systematically engineers a solution. 
+
+Python is the theme for the rest of the chapter, which is a good place for beginners to learn how to problem solve on a computer. The rest of the chapter gives the reader an idea of how Python can perform functions and solve common challenges that we take for granted. A few examples are drawing circles by creating, what are called loops. Fundamentally speaking, everything in this world can be broken down to a more simple form and rebuilt through processes; Python accomplishes both.  d computer 
+
