@@ -16,12 +16,12 @@ Listing 2.2
 
 >>> archimedes  
 <function archimedes at 0x103e0b0>  
->>> archimedes(8)  
-3.0614674589207183  
->>> archimedes(16)  
-3.1214451522580524  
 >>> archimedes(100)  
-3.1410759078128301  
+3.14263 
+>>> archimedes(1000)  
+3.14263
+>>> archimedes(10000)  
+3.1416
    
 >>> for sides in range(8,100,8):  
         print(sides,archimedes(sides))  
