@@ -20,8 +20,6 @@ testKey1 = "zyxwvutsrqponmlkjihgfedcba"
 
 TestKey2 = "wxyzabcdefghijklmnopqrstuv"
 
-TestKey2 = "abcdefghijklmnopqrstuvwxyz"
-
 cipherText = substitutionEncrypt("i went to the store",testKey1)
 
 print(cipherText)
@@ -33,4 +31,21 @@ cipherText = substitutionEncrypt("i went to the store",testKey2)
 print(cipherText)
 
 m airx xs xli wxsvi
+
+return cipherText
+
+Plaintext = substitutionDecrypt ("r dvmg gl gsv hgliv" ,TestKey1)
+
+print(Plaintext)
+
+I went to the store
+
+Plaintext = substitutionDecrypt ("m airx xs xli wxsvi" ,TestKey2)
+
+print(Plaintext)
+
+I went to the store
+
+return plainText 
+
 
