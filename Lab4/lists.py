@@ -6,12 +6,14 @@ Indicate which letter and the in README.md.
 Create another function called uniqueLetters() that creates a list of all unique characters in the string/list. 
 Then it should ouput each unique character in order.
 
-def myproject(s):
-    list = "The quick brown fox jumps over the lazy dog." 
-    alphabet = set('abcdefghijklmnopqrstuvwxyz')
-    sentence = set(list.lower())
-    return sentence == alphabet
+
+ string arr[] = { "The", "quick", "brown", "fox", 
+                     "jumps", "over", "the", "lazy", "dog"}; 
+    int n = sizeof(arr) / sizeof(arr[0]); 
     
+    string.islower();
+  
+    return 0; 
 
 
 
