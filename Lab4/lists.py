@@ -7,16 +7,30 @@ Create another function called uniqueLetters() that creates a list of all unique
 Then it should ouput each unique character in order.
 
 
- string arr[] = { "The", "quick", "brown", "fox", 
-                     "jumps", "over", "the", "lazy", "dog"};
- 
-    print(string.lower())
-  
-    return 
+s = "The quick brown fox jumps over the lazy dog." 
+print(s.lower())
 
-  def frequencyTableAlt(alist):
+import collections
+print(collections.Counter(s).most_common(1)[0])
 
-    test_string = "The quick brown fox jumps over the lazy dog."
+letters = "abcdefghijklmnopqrstuvwxyz"
+
+
+def getMostFrequent(string):
+
+    string = string.replace(" ", "").lower()
+
+    total = 0
+
+    for l in letters:
+        count = string.count(l)
+        if count > 1:
+            total += count
+
+    if total > 0:
+        print("Duplicates found.")
+    else:
+        print("No duplicates found.")
 
 
 
