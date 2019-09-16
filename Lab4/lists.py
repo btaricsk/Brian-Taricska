@@ -8,11 +8,39 @@ Then it should ouput each unique character in order.
 
 
  string arr[] = { "The", "quick", "brown", "fox", 
-                     "jumps", "over", "the", "lazy", "dog"}; 
-    
+                     "jumps", "over", "the", "lazy", "dog"};
+ 
     print(string.lower())
   
-    return 0; 
+    return 
 
+  def frequencyTableAlt(alist):
 
+    print ("ITEM","FREQUENCY")
+
+    slist = alist[:]
+
+    slist.sort()
+
+    itemlist = list (countdict.keys())
+
+    minitem = 0
+
+    maxitem = len(itemlist)-1
+
+ 
+
+    countlist = countdict.values()
+
+    maxcount = max(countlist)
+
+ 
+
+    wn = turtle.Screen()
+
+    chartT = turtle.Turtle()
+
+    wn.setworldcoordinates(-1,-1,maxitem+1,maxcount+1)
+
+    chartT.hideturtle()
 
