@@ -6,17 +6,12 @@ Indicate which letter and the in README.md.
 Create another function called uniqueLetters() that creates a list of all unique characters in the string/list. 
 Then it should ouput each unique character in order.
 
-def mylist(s):
-    alphabetList = 'abcdefghijklmnopqrstuvwxyz'
-    alphabetCount = 0
-    print[ord(char) - 96
-    input = raw_input('Write Text: ')
-    input = input.lower()
-    output = []
-    for character in input:
-        number = ord(character) - 96
-    output.append(number)
-    print "The quick brown fox jumps over the lazy dog." 
+def isPangram(s):
+    list = "The quick brown fox jumps over the lazy dog." 
+    alphabet = set('abcdefghijklmnopqrstuvwxyz')
+    s = re.sub('[^a-zA-Z]', '', s)
+    sentence = set(s.lower())
+    return sentence == alphabet
     
 
 
