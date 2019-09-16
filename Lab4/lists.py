@@ -9,9 +9,8 @@ Then it should ouput each unique character in order.
 
  string arr[] = { "The", "quick", "brown", "fox", 
                      "jumps", "over", "the", "lazy", "dog"}; 
-    int n = sizeof(arr) / sizeof(arr[0]); 
     
-    string.islower();
+    print(string.lower())
   
     return 0; 
 
