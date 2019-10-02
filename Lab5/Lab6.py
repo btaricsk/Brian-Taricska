@@ -26,7 +26,23 @@ print(count)
 Complete exercise 7.3: Write a function that asks the user to enter exam scores one at a time until the word stop is entered. 
 When stop is entered, the program should compute the average of the scores.
 
+def examscores()
+examscores = []
 
+# Set new_name to 'stop'
+new_name = 'stop'
+
+# Start a loop that will run until the user enters 'quit'.
+while new_name != 'stop':
+    # Ask the user for a name.
+    new_name = input("enter 'stop' ")
+
+    # Add the new name to our list.
+    if new_name != 'stop':
+        examscores.append(new_name)
+
+# Show that the name has been added to the list.
+print(examscores)
 
 
 Complete exercise 7.4: Write a function that takes a string as a parameter and returns True if the string is a palindrome, and 
