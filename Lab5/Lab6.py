@@ -47,3 +47,20 @@ print(examscores)
 
 Complete exercise 7.4: Write a function that takes a string as a parameter and returns True if the string is a palindrome, and 
 False otherwise. This function should use a while loop. Hint: A palindrome is a word that is spelled
+    
+def isPalindrome(st) : 
+    n = len(st) 
+      
+    # An empty string is  
+    # considered as palindrome 
+    if (n == 0) : 
+        return True
+      
+    return isPalRec(st, 0, n - 1); 
+ 
+# Driver Code 
+st = "deed"
+if (isPalindrome(st)) : 
+    print "Yes"
+else : 
+    print "No"
