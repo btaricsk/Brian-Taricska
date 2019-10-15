@@ -1,0 +1,48 @@
+Final Project
+
+import re
+import math
+import hashlib
+import base64
+
+def generate_password(length):
+    if not isinstance(length, int) or length < 8:
+        raise ValueError("temp password must have positive length")
+    generate_password(capital_letter):
+    if not isinstance(capital_letter):
+        raise ValueError("password must have capital letter")
+    generate_password(symbol):
+    if not isinstance(symbol) or unique_character:
+        raise ValueError("password must have unique character")
+    generate_password(number):
+    if not isinstance(number):
+        raise ValueError("password must have number")
+    chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"
+    password = random.choice(chars)
+    from os import urandom
+    return "".join(chars[ord(c) % len(chars)] for c in urandom(length))
+
+def validate():
+    while True:
+        password = input("Enter a password: ")
+        if len(password) < 8:
+            print("Make sure your password is at least 8 letters")
+        elif not password.isdigit():
+            print("Make sure your password has a number in it")
+        elif not password.isupper(): 
+            print("Make sure your password has a capital letter in it")
+        else:
+            print("Your password seems fine")
+            break
+
+validate()
+
+    encoded_data = base64.b64encode(b’see the source’)     
+	# encoded _data has the encoded form of our text – ’see the source’
+    print(encoded_data)
+    b’c2VlIHRoZSBzb3VyY2U=’     
+  	#this is the data in the encoded form
+    decoded_data = base64.b64decode(b’c2VlIHRoZSBzb3VyY2U=’)  
+  	# here we decode the data back to readable form
+    print(decoded_data)
+    b’see the source’
